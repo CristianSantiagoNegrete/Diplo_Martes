@@ -1,8 +1,11 @@
-#caja{
+#caja {
+    border-radius: 0px 25px 0px 0px;
+    background: radial-gradient(circle, rgb(21, 143, 139) 44%, rgba(47, 121, 9, 1) 100%);
     background-color: antiquewhite;
     width: 290px;
 }
 
-h4{
+h4 {
+    font-family: "Whisper", cursive;
     color: darkolivegreen;
 }
