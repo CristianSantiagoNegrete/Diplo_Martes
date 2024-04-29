@@ -14,7 +14,7 @@ body {
 	overflow: hidden;
 }
 nav {
-	background: #CC3910;
+	background: #ffc249;
 	float: left;
 	width: 160px;
 }
@@ -35,4 +35,46 @@ aside {
 	background: #CCC59E;
 	float: right;
 	width: 190px;
+}
+
+@media screen and (max-width: 800px){
+
+body {
+	display: inline;
+	margin: 0 0 0 0;
+}
+#contenedor{
+	display: flex;
+	flex-direction: column;
+}
+section {
+	display: flex;
+	width: 800px;
+	margin: 0 0 0 0;
+	padding: 10px;
+	text-align: center;
+}
+aside {
+	display: flex;
+	margin: 0 0 0 0;
+	width: 800px;
+}
+nav {
+	display: flex;
+	margin: 0 0 0 0;
+	width: 800px;
+}
+ul li a {
+	color: #000;
+}
+h2 {
+	text-align: left;
+}
+#caja {
+	text-align: left;
+}
+#caja2 {
+	text-align: left;
+	margin-left: 10px;
+}
 }
