@@ -46,23 +46,35 @@ body {
 #contenedor{
 	display: flex;
 	flex-direction: column;
+	width: 100%
 }
 section {
-	display: flex;
-	width: 800px;
+	/* display: flex;
+	width: 800px; */
 	margin: 0 0 0 0;
 	padding: 10px;
 	text-align: center;
+		box-sizing: border-box;
+			width: 100%;
 }
 aside {
-	display: flex;
+	/* display: flex; */
 	margin: 0 0 0 0;
-	width: 800px;
+	width: 100%;
+	box-sizing: border-box;
 }
 nav {
-	display: flex;
+	/* display: flex; */
 	margin: 0 0 0 0;
-	width: 800px;
+	width: 100%;
+	box-sizing: border-box;
+}
+ul {
+	display: flex;
+	justify-content: space-between;
+}
+li {
+	flex-grow: 1;
 }
 ul li a {
 	color: #000;
