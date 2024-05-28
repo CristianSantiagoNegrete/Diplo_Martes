@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Distancia</title>
+</head>
+<body>
+    <script>
+		const num1 = parseInt(prompt('Ingrese la distancia que desa recorrer:', ''));
+	
+		if (num1 < 1001 && num1 > 0) {
+			document.write(`la distancia se puede recorrer a pie  ${num1}`);
+		} else if (num1 > 999 && num1 <10001) {
+			document.write(`la distancia se puede recorrer en bicicleta  ${num1}`);
+		} else if (num1 > 9999 && num1 < 30001) {
+			document.write(`la distancia se debe recorrer en colectivo  ${num1}`);
+		} else if (num1 > 29999 && num1 < 100001) {
+			document.write(`la distancia se debe recorrer en auto  ${num1}`);
+		} else if (num1 > 99999) {
+			document.write(`la distancia se debe recorrer en avión  ${num1}`);
+		}
+
+	</script>
+</body>
+</html>

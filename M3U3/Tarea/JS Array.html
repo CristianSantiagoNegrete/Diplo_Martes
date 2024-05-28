@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+
+		const números = ['8', '12', '14', '6']
+		
+		console.log(números)
+		
+        let mayor = parseInt(números[0])
+		
+		for( let i = 1; i < números.length; i++){
+			const númeroActual = parseInt(números[i])
+			if (númeroActual > mayor){
+				mayor = númeroActual
+			}
+			console.log('el número mayor es ' + mayor)
+		}
+
+	</script>
+</body>
+</html>
