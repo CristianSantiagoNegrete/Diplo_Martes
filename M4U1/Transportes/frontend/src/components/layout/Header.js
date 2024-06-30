@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Header = (props) => {
     return (
@@ -8,7 +8,6 @@ const Header = (props) => {
             <h1>Transportes X</h1>
         </div>
         </header>
-
     );
 }
 

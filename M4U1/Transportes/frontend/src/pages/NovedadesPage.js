@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const NovedadesPage = (props) => {
-    return (
+    return(
         <section className="holder">
             <h2>Novedades</h2>
             <div className="novedades">
@@ -14,4 +14,4 @@ const NovedadesPage = (props) => {
     );
 }
 
-export default NovedadesPage;
+export default NovedadesPage

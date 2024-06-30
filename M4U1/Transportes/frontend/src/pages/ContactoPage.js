@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 const ContactoPage = (props) => {
-    return (
+    return(
         <main className="holder contacto">
             <div>
-                <h2>Contacto Rápido</h2>
+                <h2>Contacto rápido</h2>
                 <form className="formulario" action="" method="" >
                     <p>
                         <label for="nombre">Nombre</label>
@@ -22,23 +22,22 @@ const ContactoPage = (props) => {
                         <label for="mensaje">Mensaje</label>
                         <textarea></textarea>
                     </p>
-                    <p className="acciones"><input type="submit" value="Enviar" /></p>
+                    <p className="acciones"><input type="submit" value="enviar" /></p>
                 </form>
-
             </div>
             <div className="datos">
                 <h2>Otras vías de comunicación</h2>
-                <p>También puede contactarse con nosotros usando los siguientes medios</p>
+                <p>También puede cojntactarse con nosotros usando los siguientes medios</p>
                 <ul>
-                    <li>Teléfono: 12345678</li>
-                    <li>Email contacto@transportesx.com.ar</li>
-                    <li>Facebook: Transportes X</li>
-                    <li>Twitter: Transportes_X</li>
-                    <li>Skype: ¿...?</li>
+                    <li>Teléfono; 12345678</li>
+                    <li>Email: contacto@transportesx.com.ar</li>
+                    <li>Facebook: TransportesX</li>
+                    <li>Twitter: Transportes_X01</li>
+                    <li>Skype:</li>
                 </ul>
             </div>
         </main>
     );
 }
 
-export default ContactoPage;
+export default ContactoPage

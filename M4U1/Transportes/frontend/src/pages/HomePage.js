@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 
 const HomePage = (props) => {
-    return (
-        <main className="holder">
+    return(
+        <main classname="holder">
             <div className="homeimg">
                 <img src="images/home/img01.jpg" alt="avion" />
             </div>
             <div className="columnas">
-                <div className="bienvenidos left">
+                <div classname="bienvenidos left">
                     <h2>Bienvenidos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enom ad minim veniam, quis nostrud exercitation ullamco laboris nisit ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptuae velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt i culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor un reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exceptetur sin occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="testimonios right">
                     <h2>Testimonios</h2>
@@ -23,4 +23,4 @@ const HomePage = (props) => {
     );
 }
 
-export default HomePage;
+export default HomePage
