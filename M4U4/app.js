@@ -27,12 +27,12 @@ app.use(session({
   saveUninitialized: true
 }));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+// app.use('/', indexRouter);
+// app.use('/users', usersRouter);
 
 
 app.get('/', function (req, res) {
-  var conocido = BooLean(req.session.nombre);
+  var conocido = Boolean(req.session.nombre);
 
   res.render('index', {
     title: 'Sesiones en Express.js',
